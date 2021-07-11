@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
-}
+.App{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: cornsilk;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ 
+ }   
+
+ .imag{
+   position: absolute;
+   top: 34%;
+   width: 20%;
+   height: 40%;
+ }
+ 
+ .sort{
+   display:flex;
+   /* border: 1px solid rgb(187, 202, 155); */
+   /* background-color:wheat; */
+   /* flex-direction: column; */
+   padding: 3px;
+   /* margin-top: 50px; */
+ }
+
+ .sort-by{
+   /* border: 2px solid yellowgreen; */
+   text-decoration: underline;
+   margin-right: 5px;
+   padding: 5px;
+   font-family: fantasy;
+   font-size: 20px;
+ }
+ 
+ .allInfo{
+   border: 1px solid red;
+   text-align: center;
+   width: 80%;
+   height: 85%;
+   margin: 0;
+ }
+ 
+ .info{
+   /* border: 1px solid tomato; */
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .imgmain{
+   width: 200px;
+   height: 200px;
+   border: 1px solid steelblue;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .imgmain img{
+   width: 80%;
+   height: 80%;
+   /* object-fit: cover; */
+ }
+ 
+ .page{
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   /* bott */
+   background-color: steelblue;
+ }
+ 
+ .sort-menu{
+   display: flex;
+   flex-direction: row;
+   /* justify-content: flex-end; */
+   align-items: center;
+   position: absolute;
+   right: 10.5%;
+   /* width: 60vw; */
+   text-align: center;
+   top: 3%;
+   /* margin-top: 50px; */
+   margin-bottom: 0;
+ }
+
+ .sort-menu .sort button{
+     border: 1px solid turquoise;
+     color: steelblue;
+     font-weight: 600;
+     padding: 2px;
+     box-shadow: 1px 3px 3px rgb(61, 58, 58);
+     margin: 3px;
+ }
+ 
+ .imgg{
+   width: 30%;
+   height: 30%;
+ }
+ 
+ .row{
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .imgg img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   object-fit: cover;
+ }
